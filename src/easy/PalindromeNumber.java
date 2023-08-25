@@ -18,7 +18,7 @@ public class PalindromeNumber {
 
     //Returns 1 if palindrome else 0 without inbuilt methods
     private static int isPalindromeWithoutInbuilt(String s){
-        int i =0, j=s.length()-1;
+        int i=0, j=s.length()-1;
         while(i < j){
             if(s.charAt(i)!=s.charAt(j)){
                 return 0;
