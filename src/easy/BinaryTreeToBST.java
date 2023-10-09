@@ -27,7 +27,7 @@ public class BinaryTreeToBST {
         }
     }
 }
-class Node
+ class Node
 {
     int data;
     Node left, right;
